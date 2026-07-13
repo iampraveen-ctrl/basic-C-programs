@@ -1,0 +1,14 @@
+#include<stdio.h>
+enum day{
+MON=1,
+TUE,
+WED,
+THU,
+FRI,
+SAT,
+SUN,
+};
+int main(){
+enum day today=WED;
+printf("%d",today);
+}
